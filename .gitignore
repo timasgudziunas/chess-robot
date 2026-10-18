@@ -1,0 +1,30 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# CAD binaries (parametric intent lives in parameters JSON, not .f3d)
+*.f3d
+*.f3z
+*.stl
+*.3mf
+*.step
+*.stp
+*.iges
+*.igs
+*.sat
+
+# data / logs
+data/
+*.db
+*.log
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
