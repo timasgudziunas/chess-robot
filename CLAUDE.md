@@ -3,7 +3,7 @@
 
 A robotic chess opponent that plays on a standard light-and-dark chessboard with ordinary pieces. An overhead camera reads the human's move, Stockfish picks a reply, and a single 3D-printed articulated arm executes it. The wrist carries two soft pneumatic grippers and rotates 90 degrees between them, so a capture is one trip: gripper A lifts the captured piece, the wrist rotates, gripper B places the mover, and A drops its piece in the bin. A built-in screen and rotary knob handle game setup. A Raspberry Pi runs everything.
 
-This is also the first real project for the shared AI + CAD workflow (`../CLAUDE-CAD.md`, `../cad-standards.toml`, `../docs/`). Every printed part is modelled parametrically in Fusion 360 via the MCP tools. Lessons about the CAD workflow itself go in the shared files, not here.
+This is also the first real project for the shared AI + CAD workflow (`../CLAUDE-CAD.md`, `../cad-standards.toml`, `../cad-docs/`). Every printed part is modelled parametrically in Fusion 360 via the MCP tools. Lessons about the CAD workflow itself go in the shared files, not here.
 
 ## Repo structure (planned)
 
@@ -103,6 +103,6 @@ Everything in `../CLAUDE.md` Coding style applies. Project specifics:
 2. This file.
 3. `PLAN.md` for the current phase only.
 4. `config.toml` if touching any number.
-5. `../cad-standards.toml` and `../docs/` only when doing CAD work (the import above already loads the CAD module).
+5. `../cad-standards.toml` and `../cad-docs/` only when doing CAD work (the import above already loads the CAD module). Note `../cad-docs/` is the shared Fusion reference material; this repo's own `docs/` is hardware documentation and is a different folder.
 
 Do not read `designs/*/exports/` or `logs/`. Do not open `.f3d` files; they are not in the repo.

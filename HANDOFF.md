@@ -16,7 +16,7 @@ Nothing. Stopped cleanly at the docs commit.
 
 1. Phase 0: close the open decisions in `CLAUDE.md` (motor type and soft finger material are the big ones), write `docs/bom.md`, order parts, draft `config.toml` including the measured piece table.
 2. Phase 1 can start on the laptop immediately, in parallel with parts lead time.
-3. The shared CAD calibration comb print (open task 2 in `../CLAUDE-CAD.md`) blocks Phase 3. Do it early.
+3. The shared CAD calibration comb print (the "Calibrate clearances, holes, walls, and minimum features" item under Open tasks in `../CLAUDE-CAD.md`) blocks Phase 3. Do it early.
 
 ## Open decisions and blockers
 

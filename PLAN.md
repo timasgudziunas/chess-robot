@@ -46,7 +46,7 @@ Prove the arm geometry reaches everything with both grippers before printing any
 
 The gripper is the riskiest part of the whole build. Prove it on a stand before designing the arm around it.
 
-- [ ] Run the shared calibration comb print (open task 2 in `../CLAUDE-CAD.md`) if not yet done. Clearance and hole values in `../cad-standards.toml` must be measured before any fitted part is printed.
+- [ ] Run the shared calibration comb print (the "Calibrate clearances, holes, walls, and minimum features" item under Open tasks in `../CLAUDE-CAD.md`) if not yet done. Clearance and hole values in `../cad-standards.toml` must be measured before any fitted part is printed.
 - [ ] `designs/soft-gripper/`: finger geometry and manifold, parametric in Fusion. Print in TPU (or print a mould and cast silicone if TPU is too stiff).
 - [ ] Bench rig: one gripper on a fixed stand over the board, pump, regulator, one valve, manual switch.
 - [ ] `docs/pneumatics.md`: schematic, pressure limits, part list.
